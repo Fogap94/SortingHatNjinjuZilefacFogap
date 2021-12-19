@@ -1,0 +1,166 @@
+body{
+    background-image: url(../Images/backgroung1.jpg);  
+    display: flex;    
+    justify-content: center;
+}
+
+.container{
+    width: 1000px;
+    background-color:white;
+    text-align: center;
+    height: 732px;
+    padding: 15px;   
+    background-color: lightblue;
+   
+    text-align: center;
+}
+
+#intro, #PlayTime, #list ,p{
+    text-align: start;
+}
+
+button{
+    height:50px; width:270px;
+    border-radius: 12px;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left :180px
+}
+
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+#P1{
+text-indent: 50px;
+
+}
+
+span{
+    color: blue;
+}
+
+#header2{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.content{
+    font-size: 15px;
+    
+}
+
+input , select{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 75%;
+    border-radius: 15px;
+}
+
+input[type=submit]:hover {
+    background-color: grey;
+    
+  }
+
+  .ColorElement{
+      background-color: red;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+  table {
+    width: 50%;
+   
+  }
+  
+  th {
+    height: 50px;
+  }
+
+  
+  td {
+    height: 50px;
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .HouseButtons{
+    height:50px; width:27px;
+    border-radius: 12px;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left :100px
+  }
+ .UserContent{
+  width: 650px;
+  background-color:white;
+  text-align: center;
+  height: 400px;
+  padding: 15px;  
+  margin-left: 180px;
+  font-family: 'Cookie', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Faster One', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Petemoss', cursive;
+  font-family: 'Satisfy', cursive;
+  font-family: 'Shalimar', cursive;
+  font-family: 'Source Code Pro', monospace;
+
+ }
+ .ImageContent{
+  width: 200px;
+  height: 200px;
+  margin-top: 22px;
+
+}
+
+ .ProfileResize{
+  width: 200px;
+  height: 200px;
+  margin-top: 18px;
+ }
+
+ .numbers{
+   display: none;
+ }
+
+ #HouseBtn1, #HouseBtn2 , #HouseBtn3 ,#HouseBtn4{
+  width: 20em;  height: 3em;
+ }
+ .UserContent{
+   background-image: url(../Images/Harry.jfif);
+ }
+
+ .finisher{
+   color: red;
+   font-size: 25px;
+ }
